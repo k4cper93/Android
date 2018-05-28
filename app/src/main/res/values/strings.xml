@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Android</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="bDay">Birthday</string>
+    <string name="gender">Gender</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="phoneNumber_message" translatable="false">123-456-789</string>
+    <string name="email_message" translatable="false">example@domain.com</string>
+    <string name="firstName_message">John</string>
+    <string name="lastName_message">Smith</string>
+    <string name="aboutMe">About me</string>
+    <string name="bDay_message">Choose date</string>
+    <string name="passwd">Password</string>
+    <string name="passwd_confirm">Confirm password</string>
+    <string name="mandatoryFields">* Mandatory fields</string>
+    <string name="termsOfUse">I\'ve read and accept the Terms of use.</string>
+    <string name="passwd_wrong">Password must contain 8-16 characters from set a-zA-Z0-9_</string>
+    <string name="submit">Submit</string>
+</resources>
