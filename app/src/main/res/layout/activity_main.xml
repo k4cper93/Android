@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/linear_blue_black_gradient"
     tools:context="com.example.kacpe.android.MainActivity">
 
     <EditText
@@ -12,15 +13,16 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="48dp"
         android:ems="10"
         android:hint="@string/firstName_message"
         android:inputType="textPersonName"
         android:singleLine="true"
+        android:textColor="#F2F2F2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/confirm_passwd_text"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/title" />
 
     <TextView
         android:id="@+id/fname_text"
@@ -50,7 +52,9 @@
         android:hint="@string/lastName_message"
         android:inputType="textPersonName"
         android:singleLine="true"
+        android:textColor="#F2F2F2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/confirm_passwd_text"
         app:layout_constraintTop_toBottomOf="@+id/firstName" />
 
@@ -100,6 +104,7 @@
         android:hint="@string/email_message"
         android:inputType="textEmailAddress"
         android:singleLine="true"
+        android:textColor="#F2F2F2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/confirm_passwd_text"
         app:layout_constraintTop_toBottomOf="@+id/lastName" />
@@ -113,6 +118,7 @@
         android:ems="10"
         android:inputType="textPassword"
         android:singleLine="true"
+        android:textColor="#F2F2F2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/confirm_passwd_text"
@@ -127,6 +133,7 @@
         android:ems="10"
         android:inputType="textPassword"
         android:singleLine="true"
+        android:textColor="#F2F2F2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/confirm_passwd_text"
@@ -140,6 +147,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="12dp"
         android:hint="@string/bDay_message"
+        android:textColor="#F2F2F2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/confirm_passwd_text"
@@ -155,6 +163,7 @@
         android:buttonTint="?attr/colorButtonNormal"
         android:checked="false"
         android:text="@string/termsOfUse"
+        android:textColor="#F2F2F2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -185,6 +194,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
         android:text="@string/submit"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -203,5 +213,19 @@
         app:layout_constraintEnd_toEndOf="@+id/barrier2"
         app:layout_constraintStart_toEndOf="@+id/confirm_passwd_text"
         app:layout_constraintTop_toBottomOf="@+id/passwd_wrong" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/title"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

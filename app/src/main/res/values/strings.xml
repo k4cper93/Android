@@ -21,4 +21,5 @@
     <string name="passwd_wrong">Password must contain 8-16 characters from set a-zA-Z0-9_</string>
     <string name="submit">Submit</string>
     <string name="passwd_match">Password must match</string>
+    <string name="title">Registration form</string>
 </resources>
