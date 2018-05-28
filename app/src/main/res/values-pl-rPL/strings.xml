@@ -19,4 +19,5 @@
     <string name="termsOfUse">Przeczytałem/am i akceptuję Warunki użytkowania.</string>
     <string name="passwd_wrong">Hasło musi zawierać 8-16 znaków ze zbioru a-zA-Z0-9_</string>
     <string name="submit">Wyślij</string>
+    <string name="passwd_match">Hasła nie zgadzają się</string>
 </resources>

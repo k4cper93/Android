@@ -19,11 +19,11 @@
         android:singleLine="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintStart_toEndOf="@+id/confirm_passwd_text"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/fname_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -32,7 +32,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/lname_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -51,11 +51,11 @@
         android:inputType="textPersonName"
         android:singleLine="true"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintStart_toEndOf="@+id/confirm_passwd_text"
         app:layout_constraintTop_toBottomOf="@+id/firstName" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/email_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -64,7 +64,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/bday_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -73,7 +73,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/passwd_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -82,7 +82,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/confirm_passwd_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -101,7 +101,7 @@
         android:inputType="textEmailAddress"
         android:singleLine="true"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintStart_toEndOf="@+id/confirm_passwd_text"
         app:layout_constraintTop_toBottomOf="@+id/lastName" />
 
     <EditText
@@ -115,7 +115,7 @@
         android:singleLine="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintStart_toEndOf="@+id/confirm_passwd_text"
         app:layout_constraintTop_toBottomOf="@+id/birthday" />
 
     <EditText
@@ -129,7 +129,7 @@
         android:singleLine="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintStart_toEndOf="@+id/confirm_passwd_text"
         app:layout_constraintTop_toBottomOf="@+id/password" />
 
     <TextView
@@ -142,7 +142,7 @@
         android:hint="@string/bDay_message"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintStart_toEndOf="@+id/confirm_passwd_text"
         app:layout_constraintTop_toBottomOf="@+id/email" />
 
     <CheckBox
@@ -173,11 +173,11 @@
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:text="@string/passwd_wrong"
-        android:textColor="@android:color/holo_red_dark"
-        android:visibility="invisible"
+        android:textColor="#ff0000"
+        android:visibility="gone"
         app:layout_constraintEnd_toEndOf="@+id/barrier2"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintStart_toEndOf="@+id/confirm_passwd_text"
         app:layout_constraintTop_toBottomOf="@+id/password_confirm" />
 
     <Button
@@ -186,7 +186,22 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/submit"
-        app:layout_constraintTop_toBottomOf="@+id/terms_accepted"
-        tools:layout_editor_absoluteX="135dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/terms_accepted" />
+
+    <TextView
+        android:id="@+id/passwd_match"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/passwd_match"
+        android:textColor="#ff0000"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/barrier2"
+        app:layout_constraintStart_toEndOf="@+id/confirm_passwd_text"
+        app:layout_constraintTop_toBottomOf="@+id/passwd_wrong" />
 
 </android.support.constraint.ConstraintLayout>

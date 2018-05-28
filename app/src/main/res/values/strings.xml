@@ -17,7 +17,8 @@
     <string name="passwd">Password</string>
     <string name="passwd_confirm">Confirm password</string>
     <string name="mandatoryFields">* Mandatory fields</string>
-    <string name="termsOfUse">I\'ve read and accept the Terms of use.</string>
+    <string name="termsOfUse">I\'ve read and accept the <a href="https://www.w3schools.com">Terms of use</a>.</string>
     <string name="passwd_wrong">Password must contain 8-16 characters from set a-zA-Z0-9_</string>
     <string name="submit">Submit</string>
+    <string name="passwd_match">Password must match</string>
 </resources>
