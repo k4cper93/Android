@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Moja aplikacja</string>
+    <string name="edit_message">Wpisz wiadomość</string>
+    <string name="button_send">Wyślij</string>
+    <string name="bDay">Data urodzenia</string>
+    <string name="lastName">Nazwisko</string>
+    <string name="firstName">Imię</string>
+    <string name="gender">Płeć</string>
+    <string name="phoneNumber">Telefon</string>
+    <string name="email">Adres email</string>
+    <string name="firstName_message">Jan</string>
+    <string name="lastName_message">Kowalski</string>
+    <string name="aboutMe">O mnie</string>
+    <string name="bDay_message">Wybierz datę</string>
+    <string name="passwd">Hasło</string>
+    <string name="passwd_confirm">Potwierdź hasło</string>
+    <string name="mandatoryFields">* Pola obowiązkowe</string>
+    <string name="termsOfUse">Przeczytałem/am i akceptuję Warunki użytkowania.</string>
+    <string name="passwd_wrong">Hasło musi zawierać 8-16 znaków ze zbioru a-zA-Z0-9_</string>
+    <string name="submit">Wyślij</string>
+    <string name="passwd_match">Hasła nie zgadzają się</string>
+    <string name="title">Formularz rejestracyjny</string>
+</resources>
